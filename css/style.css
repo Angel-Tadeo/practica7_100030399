@@ -1,0 +1,137 @@
+body {
+  background-color: #33312B;
+  color: #EAA71B;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background-color 0.4s ease;
+}
+
+.neon-title {
+  color: #EAA71B;
+  text-shadow: 0 0 12px rgba(234, 167, 27, 0.6), 0 0 25px rgba(234, 167, 27, 0.3);
+}
+
+.subtitle-custom {
+  color: #C09537;
+}
+
+.text-muted-custom {
+  color: #967C44;
+}
+
+.card {
+  background-color: #413C33;
+  border: 1px solid #6B5E42;
+  color: #EAA71B;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+}
+
+.shadow-neon {
+  box-shadow: 0 0 15px rgba(107, 94, 66, 0.4), inset 0 0 6px rgba(234, 167, 27, 0.15);
+}
+
+.card:hover {
+  box-shadow: 0 0 25px rgba(234, 167, 27, 0.5);
+  border-color: #EAA71B;
+}
+
+.custom-input {
+  background-color: #33312B;
+  border: 1px solid #6B5E42;
+  color: #EAA71B;
+}
+
+.custom-input:focus {
+  background-color: #33312B;
+  color: #EAA71B;
+  border-color: #EAA71B;
+  box-shadow: 0 0 8px rgba(234, 167, 27, 0.7);
+}
+
+.custom-input::placeholder {
+  color: #967C44;
+}
+
+.output-box {
+  background-color: #33312B;
+  border: 1px dashed #6B5E42;
+  color: #C09537;
+}
+
+/* Botones personalizados */
+.btn-custom-primary {
+  background-color: #C09537;
+  color: #33312B;
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.btn-custom-primary:hover {
+  background-color: #EAA71B;
+  color: #33312B;
+  box-shadow: 0 0 12px #EAA71B;
+}
+
+.btn-custom-success {
+  background-color: #967C44;
+  color: #33312B;
+  border: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+.btn-custom-success:hover {
+  background-color: #C09537;
+  color: #33312B;
+  box-shadow: 0 0 12px #C09537;
+}
+
+.btn-custom-danger {
+  background-color: #413C33;
+  color: #EAA71B;
+  border: 1px solid #6B5E42;
+  transition: all 0.2s ease;
+}
+.btn-custom-danger:hover {
+  background-color: #6B5E42;
+  color: #EAA71B;
+  box-shadow: 0 0 10px #6B5E42;
+}
+
+.btn-custom-palette1 {
+  background-color: #33312B;
+  color: #EAA71B;
+  border: 1px solid #6B5E42;
+}
+.btn-custom-palette1:hover {
+  background-color: #413C33;
+  box-shadow: 0 0 10px #EAA71B;
+}
+
+.btn-custom-palette2 {
+  background-color: #413C33;
+  color: #EAA71B;
+  border: 1px solid #6B5E42;
+}
+.btn-custom-palette2:hover {
+  background-color: #6B5E42;
+  box-shadow: 0 0 10px #EAA71B;
+}
+
+.btn-custom-palette3 {
+  background-color: #6B5E42;
+  color: #33312B;
+  font-weight: 600;
+}
+.btn-custom-palette3:hover {
+  background-color: #967C44;
+  box-shadow: 0 0 10px #C09537;
+}
+
+/* Lista dinámica */
+.list-group-item {
+  background-color: #33312B !important;
+  color: #EAA71B !important;
+  border: 1px solid #6B5E42 !important;
+  margin-bottom: 5px;
+  border-radius: 6px !important;
+}
